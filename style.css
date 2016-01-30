@@ -1,0 +1,32 @@
+/* CSS3 Transition box */
+
+.box {
+  width: 150px;
+  height: 150px;
+  background: pink;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  transition: background-color 2s ease-out;
+}
+
+.box:hover {
+  background-color: yellow;
+  cursor: pointer;
+}
+
+/* CSS3 Transition box 2 */
+
+.box2 {
+  width: 150px;
+  height: 150px;
+  background: black;
+  background-image: url("/image/css3-bird.png");
+  margin: 40px auto;
+  transition: transform .8s ease-in-out;
+}
+
+.box2:hover {
+  transform: rotate(180deg);
+  cursor: pointer;
+}
