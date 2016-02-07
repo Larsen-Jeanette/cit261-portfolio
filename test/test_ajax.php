@@ -1,0 +1,6 @@
+<label>Your name: 
+  <input type="text" id="ajaxTextbox" />
+</label>
+<span id="ajaxButton" style="cursor: pointer; text-decoration: underline">
+  Make a request
+</span>
