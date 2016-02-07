@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html>
   <head>
     <title>CSS3 transitions</title>
@@ -5,18 +6,11 @@
   </head>
   <body>
   	
-    <h2>Topics</h2>
-    <ol>
-    	<li><a href="http://cit261-portfolio.jenjoystudio.com/topics/1.html">The software development process and some standard methodologies</a></li>
-    	<li><a href="http://cit261-portfolio.jenjoystudio.com/topics/2.html">Creative, pleasant, mobile user interface creation</a></li>
-    	<li><a href="http://cit261-portfolio.jenjoystudio.com/topics/3.html">JavaScript objects</a></li>
-    	<li><a href="http://cit261-portfolio.jenjoystudio.com/topics/4.html">DOM manipulation</a></li>
-    	<li><a href="http://cit261-portfolio.jenjoystudio.com/topics/5.html">CSS3 transitions</a></li>
-    	<li><a href="http://cit261-portfolio.jenjoystudio.com/topics/6.html">CSS3 animations</a></li>
-    	<li><a href="http://cit261-portfolio.jenjoystudio.com/topics/7.html">Using local data storage</a></li>
-    	<li><a href="http://cit261-portfolio.jenjoystudio.com/topics/8.html">AJAX interactions with remote services</a></li>
-    	<li><a href="http://cit261-portfolio.jenjoystudio.com/topics/9.html">JSON data serialization</a></li>
-    </ol>	
+    <header id='page_header'>
+      <?php include $_SERVER['DOCUMENT_ROOT'] . '/modules/navigation.php';  ?>   
+    </header>
+
+  <main> 	
     
   	<h1>5. CSS3 transitions</h1>
 
@@ -95,7 +89,7 @@
 
 			<p><a href="http://www.css3.info/preview/css3-transitions/">http://www.css3.info/preview/css3-transitions/</a></p>
 
-
+	</main>
 
   </body>
 </html>

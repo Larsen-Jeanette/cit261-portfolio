@@ -1,33 +1,27 @@
+<!DOCTYPE html>
 <html>
   <head>
     <title>Creative, pleasant, mobile user interface creation</title>
   </head>
   <body>
   	
-  	<h2>Topics</h2>
-    <ol>
-    	<li><a href="http://cit261-portfolio.jenjoystudio.com/topics/1.html">The software development process and some standard methodologies</a></li>
-    	<li><a href="http://cit261-portfolio.jenjoystudio.com/topics/2.html">Creative, pleasant, mobile user interface creation</a></li>
-    	<li><a href="http://cit261-portfolio.jenjoystudio.com/topics/3.html">JavaScript objects</a></li>
-    	<li><a href="http://cit261-portfolio.jenjoystudio.com/topics/4.html">DOM manipulation</a></li>
-    	<li><a href="http://cit261-portfolio.jenjoystudio.com/topics/5.html">CSS3 transitions</a></li>
-    	<li><a href="http://cit261-portfolio.jenjoystudio.com/topics/6.html">CSS3 animations</a></li>
-    	<li><a href="http://cit261-portfolio.jenjoystudio.com/topics/7.html">Using local data storage</a></li>
-    	<li><a href="http://cit261-portfolio.jenjoystudio.com/topics/8.html">AJAX interactions with remote services</a></li>
-    	<li><a href="http://cit261-portfolio.jenjoystudio.com/topics/9.html">JSON data serialization</a></li>
-    </ol>
+    <header id='page_header'>
+      <?php include $_SERVER['DOCUMENT_ROOT'] . '/modules/navigation.php';  ?>   
+    </header>
+
+  <main> 
 
   	<h1>2. Creative, pleasant, mobile user interface creation</h1>
 
- 	<h2>What is mobile UI?</h2>
+ 	  <h2>What is mobile UI?</h2>
 
  		<p>I like the example to thinking of it like a <strong>grocery store</strong>. As a shopper, you don't want to think about way finding and have a frustrating experience. You want to go, find what you came for, not wait long, have a pleasant interaction, and be on your way.</p>
 
- 	<h2>Why is it important?</h2>
+ 	  <h2>Why is it important?</h2>
 
  		<p>You want your users to feel comfortable and find what they need no matter the device.By 2011, Apple and Android had announced a combined total of 35 billion apps downloaded. That is a huge amount that has only grown since.</p>
 
- 	<h2>How to do it effectively? Creatively?</h2>
+ 	  <h2>How to do it effectively? Creatively?</h2>
 
  		<ul>
  			<li>
@@ -65,11 +59,12 @@
  			</li>
  		</ul>
 
- 	<h2>Resources</h2>
+ 	  <h2>Resources</h2>
 
  		<p><a href="http://thenextweb.com/uxdesign/2015/07/07/10-dos-and-donts-of-ui-and-ux-design/#gref">10 do's and don'ts of UI and UX design</a></p>
 
  		<p><a href="http://www.noupe.com/imho/the-importance-creative-design-for-mobile-app-user-experience.html">The Importance of Creative Design For Mobile App User Experience</a></p>
 
+    </main>
   </body>
 </html>
