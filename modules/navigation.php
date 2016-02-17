@@ -10,5 +10,6 @@
     	<li><a href="/topics/7.php">Using local data storage</a></li>
     	<li><a href="/topics/8.php">AJAX interactions with remote services</a></li>
     	<li><a href="/topics/9.php">JSON data serialization</a></li>
+        <li><a href="/topics/10.php">Manipulating CSS Class Properties Using JavaScript</a></li>
     </ol>
 </div>

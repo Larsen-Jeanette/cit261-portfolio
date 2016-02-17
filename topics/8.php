@@ -2,6 +2,7 @@
 <html>
   <head>
     <title>AJAX interactions with remote services</title>
+    <link rel="stylesheet" type="text/css" href="/style.css">
   </head>
   <body>
   	
@@ -13,11 +14,9 @@
     
   	<h1>8. AJAX interactions with remote services</h1>
 
- 	 <p>2-6-16 / Experiment 1</p>
-
    <span id="ajaxButton">
   Test me!
-</span>
+  </span>
 <script type="text/javascript">
 (function() {
   var httpRequest;

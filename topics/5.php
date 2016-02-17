@@ -14,14 +14,16 @@
     
   	<h1>5. CSS3 transitions</h1>
 
-  	<h2>1-30-16 / Experiment 1</h2>
+		<div class="boxGray"></div>
+
+  <hr>
+
   		<p>Shoot the bird by hovering over it.</p>
   		<div class="box2">
   		</div>
 
   <hr>
 
-  	<h2>1-25-16 / Alyssa</h2>
   		<div class="box"></div>
 
   <hr>
