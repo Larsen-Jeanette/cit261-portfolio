@@ -2,6 +2,7 @@
 <html>
   <head>
     <title>AJAX interactions with remote services</title>
+    <link rel="stylesheet" type="text/css" href="/style.css">
   </head>
   <body>
     
