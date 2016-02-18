@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>JSON data serialization</title>
+    <title>Standard JavaScript Events Including those for Mobile Devices ( Ex. onTouchBegin, onLoad, etc.)</title>
     <link rel="stylesheet" type="text/css" href="/style.css">
   </head>
   <body>
@@ -12,7 +12,7 @@
 
   <main> 
     
-  	<h1>9. JSON data serialization</h1>
+  	<h1>9. Standard JavaScript Events Including those for Mobile Devices ( Ex. onTouchBegin, onLoad, etc.)</h1>
 
  	 <p>Content coming soon.</p>
   

@@ -1,20 +1,20 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>The software development process and some standard methodologies</title>
+    <title>Loops, Conditional Statements, Functions, Variables, Parameters, Arrays, Associative Arrays</title>
   </head>
   <body>
-
+    
     <header id='page_header'>
       <?php include $_SERVER['DOCUMENT_ROOT'] . '/modules/navigation.php';  ?>   
     </header>
 
-  <main>  
+  <main> 
+    
+    <h1>1. Loops, Conditional Statements, Functions, Variables, Parameters, Arrays, Associative Arrays</h1>
 
-    <h1>1. The software development process and some standard methodologies</h1>
+   <p>Content coming soon.</p>
 
- 	  <p>Content coming soon.</p>
-
-   </main>  
+  </main>
   </body>
 </html>
