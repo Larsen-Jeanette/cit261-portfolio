@@ -7,7 +7,7 @@
   <body>
     
   <main>
-    <p>Welcome to my CIT 261 Portfolio</p>
+    <p>Welcome to my CIT 261 Portfolio - Jeanette Larsen</p>
 
     <header id='page_header'>
       <?php include $_SERVER['DOCUMENT_ROOT'] . '/modules/navigation.php';  ?>   

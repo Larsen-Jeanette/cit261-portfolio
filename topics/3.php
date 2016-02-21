@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>JavaScript objects</title>
+    <title>JSON Parse, Stringify</title>
   </head>
   <body>
   	
@@ -11,7 +11,7 @@
 
   <main> 
     
-  	<h1>3. JavaScript objects</h1>
+  	<h1>3. JSON Parse, Stringify</h1>
 
  	 <p>Content coming soon.</p>
 

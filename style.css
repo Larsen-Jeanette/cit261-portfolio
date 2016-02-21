@@ -1,3 +1,7 @@
+ul#nav {
+  list-style-type: none;
+}
+
 /* CSS3 Transition box */
 
 .box {

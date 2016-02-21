@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>DOM manipulation</title>
+    <title>Local Storage API, Storing and Retrieving Simple Data, Arrays, Associative Arrays, and Objects</title>
   </head>
   <body>
   	
@@ -11,7 +11,7 @@
 
   <main> 
 
-    <h1>4. DOM manipulation</h1>
+    <h1>4. Local Storage API, Storing and Retrieving Simple Data, Arrays, Associative Arrays, and Objects</h1>
 
  	  <p>Content coming soon.</p>
 
