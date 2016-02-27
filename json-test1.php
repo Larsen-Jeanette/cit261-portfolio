@@ -1,4 +1,3 @@
-
 var jason = {
   "age" : "24",
   "hometown" : "Missoula, MT",
