@@ -13,7 +13,7 @@
     
     <h1>1. Loops, Conditional Statements, Functions, Variables, Parameters, Arrays, Associative Arrays</h1>
 
-   <p>Content coming soon.</p>
+   <p>Examples of these are seen throughout my site!</p>
 
   </main>
   </body>
