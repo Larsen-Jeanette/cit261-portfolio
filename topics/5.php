@@ -69,7 +69,7 @@
         document.body.appendChild(quiz1);
       
         var quiz_answer = document.createElement('p');
-      quiz_answer.className = 'quiz-card'; // can style
+      quiz_answer.className = 'quiz-card'; // styled with transformation
       quiz_answer.innerHTML = 'Femur';
       
       document.body.insertBefore(quiz_answer, quiz1); 

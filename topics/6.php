@@ -12,7 +12,7 @@
 
   <main> 
     
-    <h1>CSS3 transitions</h1>
+    <h1>CSS3 transitions and transform</h1>
 
     <div class="boxGray"></div>
 
@@ -90,7 +90,7 @@
       <p><a href="http://www.css3maker.com/css3-transition.html">http://www.css3maker.com/css3-transition.html</a></p>
 
       <p><a href="http://www.css3.info/preview/css3-transitions/">http://www.css3.info/preview/css3-transitions/</a></p>    
-  	<h1>6. CSS3 animations</h1>
+  	<h1>CSS3 animations</h1>
 
 <h1 class="titleEnter">Application Title</h1>
 <p>Refresh the page to see it enter again -- will be adding JavaScript later on.</p>

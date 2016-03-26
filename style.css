@@ -139,4 +139,26 @@ h1.titleEnter {
     display: none;
 }
 
+/* style quiz card answer for topic 5 - dom (femur card) */
+.quiz-card {
+    color: pink;
+    font-family: Abril Fatface;
+    font-weight: 300;
+    font-size: 30px;
+    height: 10px;
+    text-transform: uppercase;
+    animation-name: slideInUp;
+    animation-duration: 1.5s;
+}
+
+@keyframes slideInUp {
+  from {
+    transform: translate3d(5%, 100%, 0);
+  }
+
+  to {
+    transform: translate3d(0, 0, 0);
+  }
+}
+
 
