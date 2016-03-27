@@ -21,29 +21,6 @@
 <p class="title">Add style</p> 
   
 <p id="fact">JavaScript can change the style of an HTML element.</p>
-
-<script type="text/javascript">
-  var myElement = document.querySelector("#fact");
-  myElement.style.backgroundColor = "yellow";
-
-  var myElements = document.querySelectorAll(".light");
-   
-  for (var i = 0; i < myElements.length; i++) {
-      myElements[i].style.backgroundColor = "#C8C8C8";
-  }
-
-  var myElements = document.querySelectorAll(".title");
-   
-  for (var i = 0; i < myElements.length; i++) {
-      myElements[i].style.fontWeight = "bold";
-  }
-
-  // // var theDropDown = document.querySelector("#dropDown");
-  // // theDropDown.classList.add("disableMenu");
-
-  var theDropDown = document.querySelector("#dropDown");
-  theDropDown.classList.remove("disableMenu");
-</script>
  
   <table>
   <tr>
@@ -68,6 +45,8 @@
   </tr>     
 </table>
 
+<button onclick="styleTable()">Style Table</button>
+
 <p class="title">Remove style with CSS and JavaScript</p>
 <!-- <ul id="dropDown"> -->
 <ul class="disableMenu" id="dropDown">
@@ -78,6 +57,35 @@
     <li>Five</li>
     <li>Six</li>
 </ul>
+
+
+<!-- adds gray background to table -->
+<script>
+function styleTable() {
+  var table = document.querySelectorAll(".light");
+   
+  for (var i = 0; i < table.length; i++) {
+      table[i].style.backgroundColor = "#C8C8C8";
+  }
+}
+</script>
+
+<script type="text/javascript">
+  var myElement = document.querySelector("#fact");
+  myElement.style.backgroundColor = "yellow";
+
+  var myElements = document.querySelectorAll(".title");
+   
+  for (var i = 0; i < myElements.length; i++) {
+      myElements[i].style.fontWeight = "bold";
+  }
+
+  // // var theDropDown = document.querySelector("#dropDown");
+  // // theDropDown.classList.add("disableMenu");
+
+  var theDropDown = document.querySelector("#dropDown");
+  theDropDown.classList.remove("disableMenu");
+</script>
 
 <hr>    
 
@@ -99,20 +107,19 @@
   <li>Remove or add class values, which can add or take away style rules</li>
 <ul>
 
-<!-- <h3>Style Directly</h3>
+<h3>Style Directly</h3>
 
-You can select only one by using a class or id and targeting it
-You can select all assigned to a class and write a for loop to change it
-*Pay attention to how things are written in CSS and JavaScript. Ex. font-weight in CSS is fontWeight in JavaScript. They also may need px or em to make it work.
+<p>You can select only one by using a class or id and targeting it</p>
+<p>You can select all assigned to a class and write a for loop to change it</p>
+<p>*Pay attention to how things are written in CSS and JavaScript. Ex. font-weight in CSS is fontWeight in JavaScript. They also may need px or em to make it work.</p>
 
-Add or Remove Classes
+<strong>Add or Remove Classes</strong>
 
-Can use classList API (see resources for more info)
-Use add or remove
-Useful with CSS that is already set
-Example Code
+<p>Can use classList API (see resources for more info)</p>
+<p>Use add or remove</p>
+<p>Useful with CSS that is already set</p>
 
-http://codepen.io/jnetlar4/pen/JGeGOX
+<!-- http://codepen.io/jnetlar4/pen/JGeGOX
 
 Resources
 
